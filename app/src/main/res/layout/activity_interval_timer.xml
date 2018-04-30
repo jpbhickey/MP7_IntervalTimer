@@ -15,4 +15,64 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ProgressBar
+        android:id="@+id/ClockTimer"
+        android:layout_width="385dp"
+        android:layout_height="259dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <ToggleButton
+        android:id="@+id/StartStopButton"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="Start"
+        android:textOn="Stop"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <EditText
+        android:id="@+id/MainInterval"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Main Interval"
+        android:inputType="number"
+        android:text="Main Interval:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <EditText
+        android:id="@+id/BreakInterval"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Break Interval"
+        android:inputType="number"
+        android:text="Break Interval:"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <EditText
+        android:id="@+id/NumberIntervals"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="No. of Intervals"
+        android:inputType="number"
+        android:text="Number of Intervals:"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="420dp" />
+
 </android.support.constraint.ConstraintLayout>

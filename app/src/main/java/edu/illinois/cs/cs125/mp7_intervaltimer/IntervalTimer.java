@@ -10,4 +10,9 @@ public class IntervalTimer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_interval_timer);
     }
+    int mainInterval = 0;
+    int breakInterval = 0;
+    int intervals = 0;
+
+    
 }
